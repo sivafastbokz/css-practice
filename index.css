@@ -189,3 +189,51 @@
    
     min-width: 300px;
 }
+.position{
+    background-color: aqua;
+    width: 10%;
+    height: 100%;
+    /* position: fixed; */
+    /* position: sticky; */
+}
+.container{
+    background-color: aqua;
+    height: 200px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+.box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* body{
+    background-color: red !important;
+} */
+p{
+    background-color: aqua !important;
+    width: 100%;
+    border: 2px solid black;
+    /* margin-left: 25px; */
+    /* position: relative; */  /* Setting the top, right, bottom, and left properties of an element with position: relative; property will cause it to adjust from its normal position. The other objects or elements will not fill the gap. */
+    /* left: 25px; */
+    
+}
+.ptag{
+    background-color: blue;
+    width: 100%;
+    border: 2px solid black;
+}
+.ptag2{
+    background-color: brown;
+    width: 100%;
+    border: 2px solid black;
+    /* position: absolute; */   /* An element with position: absolute; will cause it to adjust its position with respect to its parent. If no parent is present, then it uses the document body as parent. */
+    left: 0;
+    /* top: 0; */
+    /* z-index: 1; */
+}
