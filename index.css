@@ -237,3 +237,31 @@ p{
     /* top: 0; */
     /* z-index: 1; */
 }
+
+.box1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 2000;
+}
+.box2{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+.box3{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    z-index: 850;
+}
+.display{
+    display: block;
+}
+div{
+    display: inline;
+}
