@@ -243,25 +243,43 @@ p{
     width: 100px;
     height: 100px;
     position: absolute;
-    z-index: 2000;
+    z-index: 1001;
+    left: 55px;
 }
 .box2{
     background-color: aqua;
     width: 100px;
     height: 100px;
+    left: 55px;
+    position: absolute;
+    z-index: 1002;
+    /* top: 0; */
 }
-.box3{
+/* .box3{
     background-color: purple;
     width: 100px;
     height: 100px;
     position: absolute;
     top: 0;
-    left: 25px;
-    z-index: 850;
-}
+    left: 95px;
+    z-index: 1000;
+} */
 .display{
     display: block;
 }
-div{
-    display: inline;
+
+.parent{
+    border: 2px solid black;
+    height: 300px;
+    width: 500px;
+    position: relative;
+    margin: auto;
+}
+.child{
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right:0;
+    
 }
