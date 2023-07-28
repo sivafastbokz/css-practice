@@ -264,10 +264,6 @@ p{
     left: 95px;
     z-index: 1000;
 } */
-.display{
-    display: block;
-}
-
 .parent{
     border: 2px solid black;
     height: 300px;
@@ -280,6 +276,8 @@ p{
     height: 100px;
     width: 100px;
     position: absolute;
-    right:0;
-    
+    right:0;  
+}
+.display{
+    display: block;
 }
